@@ -5,10 +5,8 @@ import "./globals.css";
 export const metadata = {
   title: "Voyanta — AI Travel Itineraries",
   description: "Luxury AI-powered travel planning in seconds.",
-
-
   verification: {
-    google: "SPWYcMxOVsDkDWo8CoJWPobjOr0t7ET0RiisU7jjZIA",
+    google: <meta name="google-site-verification" content="SPWYcMxOVsDkDWo8CoJWPobjOr0t7ET0RiisU7jjZIA" />,
   },
 };
 
