@@ -1,6 +1,13 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+export const metadata = {
+  title: "Voyanta — AI Travel Itineraries",
+  description: "Luxury AI-powered travel planning.",
+  verification: {
+    google: <meta name="google-site-verification" content="SPWYcMxOVsDkDWo8CoJWPobjOr0t7ET0RiisU7jjZIA" />
+  },
+};
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,10 +38,3 @@ export default function RootLayout({
     </html>
   );
 }
-export const metadata = {
-  title: "Voyanta — AI Travel Itineraries",
-  description: "Luxury AI-powered travel planning.",
-  verification: {
-    google: <meta name="google-site-verification" content="SPWYcMxOVsDkDWo8CoJWPobjOr0t7ET0RiisU7jjZIA" />
-  },
-};
