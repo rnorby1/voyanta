@@ -31,3 +31,10 @@ export default function RootLayout({
     </html>
   );
 }
+export const metadata = {
+  title: "Voyanta — AI Travel Itineraries",
+  description: "Luxury AI-powered travel planning.",
+  verification: {
+    google: "abc123xyz", // 👈 paste your code here
+  },
+};
